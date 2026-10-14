@@ -1188,26 +1188,7 @@ ul {
   .contact-section {
     flex-direction: column;
   }
-}
-.service-icon {
- text-align: center;
-
-}
-#H{
-  text-align: center;
-}
-
-/* ===========================================
-   CORRECTION TABLEAUX SUR MOBILE
-   =========================================== */
-.tarifs,
-.panier-section {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-@media (max-width: 768px) {
-  .tarifs-table,
+   .tarifs-table,
   .panier-table {
     width: 100%;
     margin: 0 auto;
@@ -1237,4 +1218,17 @@ ul {
     padding: 16px 6px 0;
     font-size: 17px;
   }
+   .tarifs,
+.panier-section {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+}
+.service-icon {
+ text-align: center;
+
+}
+#H{
+  text-align: center;
 }
